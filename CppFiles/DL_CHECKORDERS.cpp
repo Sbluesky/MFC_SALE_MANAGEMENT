@@ -44,7 +44,7 @@ END_MESSAGE_MAP()
 BOOL DL_CHECKORDERS::OnInitDialog()
 {
 	CDialogEx::OnInitDialog();
-	m_checkid = 0;
+	//m_checkid = 0;
 	edltlistctrl_checkorders.SetExtendedStyle(LVS_EX_FULLROWSELECT | LVS_EX_GRIDLINES );
 	edltlistctrl_checkorders.InsertColumn(0, _T("Goods Name"), LVCFMT_LEFT, 150);
 	edltlistctrl_checkorders.InsertColumn(1, _T("Amount"), LVCFMT_LEFT, 50);
